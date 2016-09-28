@@ -13,6 +13,13 @@
 		8A7E77691D9BDA0A009FDF9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A7E77671D9BDA0A009FDF9F /* Main.storyboard */; };
 		8A7E776B1D9BDA0A009FDF9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A7E776A1D9BDA0A009FDF9F /* Assets.xcassets */; };
 		8A7E776E1D9BDA0A009FDF9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A7E776C1D9BDA0A009FDF9F /* LaunchScreen.storyboard */; };
+		8A7E777D1D9BDA6B009FDF9F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E77761D9BDA6B009FDF9F /* DetailViewController.m */; };
+		8A7E777E1D9BDA6B009FDF9F /* ImageLinkParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E77781D9BDA6B009FDF9F /* ImageLinkParse.m */; };
+		8A7E777F1D9BDA6B009FDF9F /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E777A1D9BDA6B009FDF9F /* News.m */; };
+		8A7E77801D9BDA6B009FDF9F /* RssParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A7E777C1D9BDA6B009FDF9F /* RssParse.m */; };
+		8A7E77831D9BDAF1009FDF9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7E77821D9BDAF1009FDF9F /* Foundation.framework */; };
+		8A7E77851D9BDB00009FDF9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7E77841D9BDB00009FDF9F /* UIKit.framework */; };
+		8A7E77871D9BDB08009FDF9F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7E77861D9BDB08009FDF9F /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,17 @@
 		8A7E776A1D9BDA0A009FDF9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A7E776D1D9BDA0A009FDF9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A7E776F1D9BDA0A009FDF9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A7E77751D9BDA6B009FDF9F /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		8A7E77761D9BDA6B009FDF9F /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		8A7E77771D9BDA6B009FDF9F /* ImageLinkParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageLinkParse.h; sourceTree = "<group>"; };
+		8A7E77781D9BDA6B009FDF9F /* ImageLinkParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageLinkParse.m; sourceTree = "<group>"; };
+		8A7E77791D9BDA6B009FDF9F /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		8A7E777A1D9BDA6B009FDF9F /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		8A7E777B1D9BDA6B009FDF9F /* RssParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RssParse.h; sourceTree = "<group>"; };
+		8A7E777C1D9BDA6B009FDF9F /* RssParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RssParse.m; sourceTree = "<group>"; };
+		8A7E77821D9BDAF1009FDF9F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8A7E77841D9BDB00009FDF9F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8A7E77861D9BDB08009FDF9F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +51,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A7E77871D9BDB08009FDF9F /* CoreGraphics.framework in Frameworks */,
+				8A7E77851D9BDB00009FDF9F /* UIKit.framework in Frameworks */,
+				8A7E77831D9BDAF1009FDF9F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +65,7 @@
 			children = (
 				8A7E775D1D9BDA0A009FDF9F /* testRssReader */,
 				8A7E775C1D9BDA0A009FDF9F /* Products */,
+				8A7E77811D9BDAF1009FDF9F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +84,14 @@
 				8A7E77621D9BDA0A009FDF9F /* AppDelegate.m */,
 				8A7E77641D9BDA0A009FDF9F /* ViewController.h */,
 				8A7E77651D9BDA0A009FDF9F /* ViewController.m */,
+				8A7E77751D9BDA6B009FDF9F /* DetailViewController.h */,
+				8A7E77761D9BDA6B009FDF9F /* DetailViewController.m */,
+				8A7E77791D9BDA6B009FDF9F /* News.h */,
+				8A7E777A1D9BDA6B009FDF9F /* News.m */,
+				8A7E777B1D9BDA6B009FDF9F /* RssParse.h */,
+				8A7E777C1D9BDA6B009FDF9F /* RssParse.m */,
+				8A7E77771D9BDA6B009FDF9F /* ImageLinkParse.h */,
+				8A7E77781D9BDA6B009FDF9F /* ImageLinkParse.m */,
 				8A7E77671D9BDA0A009FDF9F /* Main.storyboard */,
 				8A7E776A1D9BDA0A009FDF9F /* Assets.xcassets */,
 				8A7E776C1D9BDA0A009FDF9F /* LaunchScreen.storyboard */,
@@ -77,6 +107,16 @@
 				8A7E775F1D9BDA0A009FDF9F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A7E77811D9BDAF1009FDF9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A7E77861D9BDB08009FDF9F /* CoreGraphics.framework */,
+				8A7E77841D9BDB00009FDF9F /* UIKit.framework */,
+				8A7E77821D9BDAF1009FDF9F /* Foundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +190,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A7E77801D9BDA6B009FDF9F /* RssParse.m in Sources */,
 				8A7E77661D9BDA0A009FDF9F /* ViewController.m in Sources */,
 				8A7E77631D9BDA0A009FDF9F /* AppDelegate.m in Sources */,
+				8A7E777F1D9BDA6B009FDF9F /* News.m in Sources */,
 				8A7E77601D9BDA0A009FDF9F /* main.m in Sources */,
+				8A7E777E1D9BDA6B009FDF9F /* ImageLinkParse.m in Sources */,
+				8A7E777D1D9BDA6B009FDF9F /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +262,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -260,7 +304,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -272,6 +316,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = testRssReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = my.testRssReader;
@@ -283,6 +328,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = testRssReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = my.testRssReader;
@@ -309,6 +355,7 @@
 				8A7E77741D9BDA0A009FDF9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

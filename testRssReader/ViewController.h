@@ -7,9 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DetailViewController.h"
+#import "News.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UITableViewController <NSXMLParserDelegate, NewsDelegate>
+{
+	News *my_news;
+	
+	int _newsLoaded;
 
+}
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
+
+-(void)newsReloadComplite:(NSInteger)newsCount;
 
 @end
-
